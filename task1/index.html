@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dispatch — Async Task Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-title">
+      <span class="dot dot--idle"></span>
+      <h1>Dispatch</h1>
+      <span class="subtitle">async task board</span>
+    </div>
+    <div class="topbar-actions">
+      <button id="runAllBtn" class="btn btn--primary">Run All Tasks</button>
+      <button id="compareBtn" class="btn">Compare Sequential / Concurrent</button>
+    </div>
+  </header>
+
+  <main class="board">
+
+    <section class="tasks" id="taskGrid" aria-label="Tasks">
+      <!-- task cards injected by script.js -->
+    </section>
+
+    <section class="loop-panel">
+      <div class="loop-panel__header">
+        <h2>Event Loop Demo</h2>
+        <button id="runLoopBtn" class="btn">Run Event Loop Demo</button>
+      </div>
+
+      <div class="loop-panel__grid">
+        <div class="predict-box">
+          <h3>Predicted output <span class="hint">(write this before you press run)</span></h3>
+          <ol id="predictedList" class="predict-list"></ol>
+          <p class="predict-note">Order guessed using: Call Stack → Microtask Queue → Task Queue.</p>
+        </div>
+
+        <div class="actual-box">
+          <h3>Actual console output</h3>
+          <ol id="actualList" class="actual-list">
+            <li class="placeholder">— press “Run Event Loop Demo” —</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="console-panel">
+      <div class="console-panel__header">
+        <h2>Log</h2>
+        <button id="clearLogBtn" class="btn btn--ghost">Clear</button>
+      </div>
+      <div id="log" class="console" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

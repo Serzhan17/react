@@ -1,0 +1,217 @@
+:root {
+  --bg: #0F1B14;
+  --card: #16261C;
+  --card-2: #1D2E23;
+  --line: #2A3B2E;
+  --gold: #D4A017;
+  --gold-soft: #E8C468;
+  --chalk: #F5F1E8;
+  --text: #EDEAE0;
+  --muted: #8AA08D;
+  --font-display: 'Anton', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% -10%, rgba(212, 160, 23, 0.10), transparent 45%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 640px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2.5rem 2rem 2rem;
+  background:
+    linear-gradient(180deg, var(--card-2), var(--card));
+  border-bottom: 3px solid var(--gold);
+}
+
+.hero__eyebrow {
+  margin: 0 0 0.15rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.hero__name {
+  font-size: clamp(2.4rem, 8vw, 3.2rem);
+  color: var(--chalk);
+  line-height: 1;
+}
+
+.hero__tagline {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.avatar__badge {
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+}
+
+.avatar__ring { fill: none; stroke: var(--gold); stroke-width: 3; }
+.avatar__disc { fill: var(--card-2); stroke: var(--line); stroke-width: 1; }
+.avatar__initials {
+  font-family: var(--font-display);
+  font-size: 52px;
+  fill: var(--gold-soft);
+}
+
+.avatar__photo {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--gold);
+}
+
+/* ---------- shared section rhythm ---------- */
+
+.about, .interests, .contact {
+  padding: 1.9rem 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact { border-bottom: none; }
+
+.about h2, .interests h2, .contact h2 {
+  font-size: 1.15rem;
+  color: var(--gold-soft);
+  margin-bottom: 0.85rem;
+}
+
+.about p {
+  margin: 0 0 0.8rem;
+  color: var(--text);
+  max-width: 62ch;
+}
+.about p:last-child { margin-bottom: 0; }
+
+/* ---------- interests ---------- */
+
+.interests__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.interests__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card-2);
+  font-size: 0.9rem;
+}
+
+.interests__mark {
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+/* ---------- contact ---------- */
+
+.contact__list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.contact__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px dashed var(--line);
+}
+.contact__row:last-child { border-bottom: none; padding-bottom: 0; }
+
+.contact__row dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.contact__row dd {
+  margin: 0;
+  text-align: right;
+  font-weight: 500;
+}
+
+.contact a {
+  color: var(--gold-soft);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.contact a:hover { border-bottom-color: var(--gold-soft); }
+
+/* ---------- footer ---------- */
+
+.footer {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 480px) {
+  .hero { flex-direction: column; text-align: center; padding: 2rem 1.5rem; }
+  .contact__row { flex-direction: column; text-align: left; gap: 0.2rem; }
+  .contact__row dd { text-align: left; }
+}
+
+/* ---------- accessibility ---------- */
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

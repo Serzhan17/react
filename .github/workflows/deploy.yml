@@ -24,7 +24,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: task2/dist
+          path: task4/dist
 
   deploy:
     needs: build

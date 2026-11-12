@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Task board illustration">
+  <rect width="480" height="320" rx="20" fill="#eef0ff"/>
+  <rect x="40" y="40" width="130" height="240" rx="12" fill="#ffffff" stroke="#c7cbf5"/>
+  <rect x="175" y="40" width="130" height="240" rx="12" fill="#ffffff" stroke="#c7cbf5"/>
+  <rect x="310" y="40" width="130" height="240" rx="12" fill="#ffffff" stroke="#c7cbf5"/>
+  <rect x="52" y="58" width="106" height="44" rx="8" fill="#e0e3ff"/>
+  <rect x="52" y="112" width="106" height="44" rx="8" fill="#e0e3ff"/>
+  <rect x="187" y="58" width="106" height="44" rx="8" fill="#fde7c3"/>
+  <rect x="187" y="112" width="106" height="44" rx="8" fill="#fde7c3"/>
+  <rect x="322" y="58" width="106" height="44" rx="8" fill="#c9f1d6"/>
+  <rect x="322" y="112" width="106" height="44" rx="8" fill="#c9f1d6"/>
+  <rect x="322" y="166" width="106" height="44" rx="8" fill="#c9f1d6"/>
+  <circle cx="340" cy="80" r="7" fill="#16a34a"/>
+  <path d="M336 80l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="105" y="30" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#4f46e5">To do</text>
+  <text x="240" y="30" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#d97706">In progress</text>
+  <text x="375" y="30" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#16a34a">Done</text>
+</svg>

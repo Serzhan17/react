@@ -1,0 +1,15 @@
+{
+  "id": 7,
+  "title": "Write the login page",
+  "description": "Styled placeholder for future authentication.",
+  "status": "todo",
+  "priority": "low",
+  "assignee": "Aigerim",
+  "dueDate": "2026-11-18",
+  "estimateHours": 2,
+  "tags": [
+    "login",
+    "ui"
+  ],
+  "createdAt": "2026-10-30T14:00:00.000Z"
+}

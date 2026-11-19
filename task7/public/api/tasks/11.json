@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "title": "Create a 404 page",
+  "description": "Custom Not Found page with a link back home.",
+  "status": "done",
+  "priority": "low",
+  "assignee": "Aigerim",
+  "dueDate": "2026-11-02",
+  "estimateHours": 1,
+  "tags": [
+    "404",
+    "ui"
+  ],
+  "createdAt": "2026-11-02T08:00:00.000Z"
+}

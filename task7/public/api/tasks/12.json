@@ -1,0 +1,14 @@
+{
+  "id": 12,
+  "title": "Write the README",
+  "description": "Document routes, architecture and defense notes.",
+  "status": "todo",
+  "priority": "low",
+  "assignee": "Serzhan",
+  "dueDate": "2026-11-25",
+  "estimateHours": 1,
+  "tags": [
+    "docs"
+  ],
+  "createdAt": "2026-11-02T16:15:00.000Z"
+}

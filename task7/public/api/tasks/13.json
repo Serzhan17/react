@@ -1,0 +1,15 @@
+{
+  "id": 13,
+  "title": "Test direct URLs",
+  "description": "Refresh and Back/Forward must keep working on every page.",
+  "status": "todo",
+  "priority": "high",
+  "assignee": "Nurasyl",
+  "dueDate": "2026-11-07",
+  "estimateHours": 2,
+  "tags": [
+    "testing",
+    "router"
+  ],
+  "createdAt": "2026-11-03T09:05:00.000Z"
+}

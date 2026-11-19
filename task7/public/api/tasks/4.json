@@ -1,0 +1,14 @@
+{
+  "id": 4,
+  "title": "Deploy the app",
+  "description": "Publish the build on Vercel and attach the link.",
+  "status": "todo",
+  "priority": "low",
+  "assignee": "Serzhan",
+  "dueDate": "2026-11-12",
+  "estimateHours": 1,
+  "tags": [
+    "deploy"
+  ],
+  "createdAt": "2026-10-13T15:45:00.000Z"
+}

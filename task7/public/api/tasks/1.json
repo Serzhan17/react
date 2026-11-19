@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "title": "Set up the project",
+  "description": "Create the Vite + React project and configure the repository.",
+  "status": "done",
+  "priority": "high",
+  "assignee": "Serzhan",
+  "dueDate": "2026-10-20",
+  "estimateHours": 2,
+  "tags": [
+    "setup",
+    "react"
+  ],
+  "createdAt": "2026-10-10T09:00:00.000Z"
+}

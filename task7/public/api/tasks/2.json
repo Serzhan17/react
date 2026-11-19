@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "title": "Write the fake API",
+  "description": "Promises, random delays, random errors and localStorage persistence.",
+  "status": "done",
+  "priority": "high",
+  "assignee": "Serzhan",
+  "dueDate": "2026-10-25",
+  "estimateHours": 4,
+  "tags": [
+    "api",
+    "promises"
+  ],
+  "createdAt": "2026-10-11T10:30:00.000Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "title": "Lazy-load the pages",
+  "description": "Use React.lazy and Suspense for 3+ pages.",
+  "status": "todo",
+  "priority": "medium",
+  "assignee": "Nurasyl",
+  "dueDate": "2026-11-22",
+  "estimateHours": 2,
+  "tags": [
+    "lazy",
+    "performance"
+  ],
+  "createdAt": "2026-11-01T13:30:00.000Z"
+}

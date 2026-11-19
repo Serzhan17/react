@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "title": "Handle race conditions",
+  "description": "Switching quickly between items must never show outdated details.",
+  "status": "in_progress",
+  "priority": "medium",
+  "assignee": "Nurasyl",
+  "dueDate": "2026-11-08",
+  "estimateHours": 3,
+  "tags": [
+    "useEffect",
+    "cleanup"
+  ],
+  "createdAt": "2026-10-12T12:00:00.000Z"
+}

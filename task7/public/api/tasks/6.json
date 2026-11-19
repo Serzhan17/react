@@ -1,0 +1,15 @@
+{
+  "id": 6,
+  "title": "Design the dashboard",
+  "description": "Statistics, breakdowns and an interactive filter.",
+  "status": "todo",
+  "priority": "medium",
+  "assignee": "Nurasyl",
+  "dueDate": "2026-11-15",
+  "estimateHours": 4,
+  "tags": [
+    "dashboard",
+    "ui"
+  ],
+  "createdAt": "2026-10-29T11:10:00.000Z"
+}

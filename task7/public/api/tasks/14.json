@@ -1,0 +1,14 @@
+{
+  "id": 14,
+  "title": "Prepare the defense",
+  "description": "Explain effects, cleanup, race conditions and routing.",
+  "status": "todo",
+  "priority": "high",
+  "assignee": "Serzhan",
+  "dueDate": "2026-12-05",
+  "estimateHours": 3,
+  "tags": [
+    "defense"
+  ],
+  "createdAt": "2026-11-03T18:00:00.000Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 9,
+  "title": "Implement pagination",
+  "description": "Paginate the list and keep the page number in the URL.",
+  "status": "todo",
+  "priority": "medium",
+  "assignee": "Serzhan",
+  "dueDate": "2026-11-20",
+  "estimateHours": 2,
+  "tags": [
+    "pagination",
+    "router"
+  ],
+  "createdAt": "2026-11-01T10:00:00.000Z"
+}

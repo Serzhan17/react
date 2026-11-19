@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "title": "Add search and filters",
+  "description": "Sync search, filters and sorting with URL parameters.",
+  "status": "in_progress",
+  "priority": "high",
+  "assignee": "Aigerim",
+  "dueDate": "2026-11-09",
+  "estimateHours": 3,
+  "tags": [
+    "search",
+    "router"
+  ],
+  "createdAt": "2026-10-31T09:40:00.000Z"
+}

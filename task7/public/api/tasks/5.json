@@ -1,0 +1,15 @@
+{
+  "id": 5,
+  "title": "Add React Router",
+  "description": "Nested routes, dynamic URLs and a shared layout with Outlet.",
+  "status": "in_progress",
+  "priority": "high",
+  "assignee": "Serzhan",
+  "dueDate": "2026-11-10",
+  "estimateHours": 5,
+  "tags": [
+    "router",
+    "react"
+  ],
+  "createdAt": "2026-10-28T08:20:00.000Z"
+}
